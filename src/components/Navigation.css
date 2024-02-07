@@ -1,0 +1,16 @@
+.NavBar
+{
+    position: fixed;
+    color: black;
+    text-align: right;
+}
+
+.NavBar ul
+{
+    display: block;
+}
+.NavBar li
+{
+    color: black;
+    text-align: right;
+}
