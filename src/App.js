@@ -1,12 +1,13 @@
 // App.js
 
 import React from 'react';
-import './Navigation.css'
+import FirstNav from './components/FirstNav';
 
 const App = () => {
   return (
     <div>
-      <NavBar /> {/* Use the corrected component name here */}
+      <FirstNav /> {FirstNav}
+
     </div>
   );
 }
