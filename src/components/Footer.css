@@ -1,0 +1,17 @@
+.socials
+{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    display: inline-block;
+}
+.socials-caption
+{
+    display: block;
+    color: black;
+}
+.socials img
+{
+    width: 60px;
+    height: 60px;
+}

@@ -1,12 +1,11 @@
 import React from 'react';
 import './FirstNav.css';
-
-
+import Logo from '../images/pb002.png';
 
 const FirstNav = () => {
   return (
     <nav>
-            <image src='../assets/pb002.png'></image>
+            <img src={Logo} alt='Personal Brand Logo' />
             <ul>
                 <li id='Profile'><a href="#profile"><strong>Profile</strong></a></li>
                 <li id='Education'><a href="#education"><strong>Education</strong></a></li>

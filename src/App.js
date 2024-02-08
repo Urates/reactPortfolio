@@ -1,13 +1,11 @@
 // App.js
-
 import React from 'react';
-import FirstNav from './components/FirstNav';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <div>
-      <FirstNav /> {FirstNav}
-
+      {Footer}
     </div>
   );
 }
