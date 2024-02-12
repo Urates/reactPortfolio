@@ -4,7 +4,7 @@ import Logo from '../images/pb002.png';
 
 const FirstNav = () => {
   return (
-    <nav>
+    <nav className='nav'>
             <img src={Logo} alt='Personal Brand Logo' />
             <ul>
                 <li id='Profile'><a href="#profile"><strong>Profile</strong></a></li>
