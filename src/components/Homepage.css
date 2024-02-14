@@ -190,4 +190,25 @@
   margin-top: 110px;
   margin-left: 110px;
 }
-  
+.FirstText
+{
+  background-color: grey ;
+  border-radius: 20px;
+  height: 300px;
+  padding: 5px;
+}
+.SecondText
+{
+  background-color: rgb(162, 165, 126) ;
+  border-radius: 20px;
+  height: 300px;
+  border: black solid 2px;
+  padding: 5px;
+}
+.ThirdText
+{
+  background-color: grey ;
+  border-radius: 20px;
+  height: 300px;
+  padding: 5px;
+}

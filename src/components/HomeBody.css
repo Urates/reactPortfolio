@@ -1,0 +1,33 @@
+.HomeBody-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    position: absolute;
+    top: 240px;
+    z-index: 0;
+}
+
+.HomeBody-container  .HomePicture {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+  }
+  .HomePicture img
+  {
+    border-radius: 15px;
+    margin-left: 3px;
+    height: 100%;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .HomeBody-container  .HomeText {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .HomeText p
+  {
+    margin-left: 0;
+  }
+
