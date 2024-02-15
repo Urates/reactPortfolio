@@ -1,7 +1,7 @@
 .HomeBody-container 
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     padding: 10px;
     position: absolute;
     top: 240px;
@@ -18,16 +18,42 @@
     border-radius: 15px;
     margin-left: 3px;
     height: 100%;
-    width: 80%;
-    margin-top: 10px;
+    width: 100%;
+    box-shadow: black 10px;
   }
   
   .HomeBody-container  .HomeText {
     grid-column-start: 2;
     grid-column-end: 3;
+    background-color: rgb(82, 173, 196,0.31);
+    border-radius: 5px;
+    padding: 20px;
+    width: 94%;
+    margin-left: 15px;
   }
   .HomeText p
   {
-    margin-left: 0;
+    width: 550px;
+    margin: auto;
+    font-size: large;
+    margin-bottom: 20px;
   }
-
+  .FirstText
+  {
+    background-color: rgba(128, 128, 128, 0.384);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .SecondText
+  {
+    background-color:  rgba(0, 0, 0, 0.781);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+  }
+  .ThirdText
+  {
+    background-color: rgba(128, 128, 128, 0.384);
+    border-radius: 15px;
+    padding: 10px;
+  }

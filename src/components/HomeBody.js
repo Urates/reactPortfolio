@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImg from '../images/3.jpg';
+import HomeImg from '../images/3-copy.jpg';
 import './HomeBody.css';
 
 
@@ -7,9 +7,9 @@ const HomeBody = () => {
     return (
 
     <div className="HomeBody-container ">
-        <div className='HomePicture'>
+            <div className='HomePicture'>
               < img src={HomeImg} alt='Uviwe Makiva'/>
-          </div>
+            </div>
 
           <div className='HomeText'>
               <p><strong>Background Information</strong></p>

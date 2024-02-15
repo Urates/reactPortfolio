@@ -1,0 +1,50 @@
+.profileStyle
+{
+    display: block;
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    right: 20px;
+}
+.mainProfileContainer
+{
+    background-color: grey;
+    display: block;
+    position:absolute;
+    top: 550px;
+    left: 5px;
+
+}
+.ProfileContainerItems
+{
+    display: inline-grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+}
+.ProfileContainerItems img
+{
+    width: 40px;
+    height: 40px;
+}
+.grid1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid2
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.grid3
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}.grid4
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}

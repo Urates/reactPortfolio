@@ -3,8 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import NavBar from './components/NavBar';
- import HomeBody from './components/HomeBody';
-import Footer from './components/Footer';
+ import Profile from './components/Profile';
 
 const App = () => {
   return (
@@ -14,13 +13,10 @@ const App = () => {
         </div>
         
         <div className='Body'>
-          <HomeBody />
+          <Profile />
         </div>
 
-        <div className='Footer'>
-          <Footer />
-        </div>
-    </div>
+           </div>
   );
 }
 export default App;

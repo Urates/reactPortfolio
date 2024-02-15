@@ -7,6 +7,7 @@
     padding: 5px;
     width:1300px;
     position: absolute;
+    box-shadow: black 3px 3px 0;
   }
 .lowerNav ul
   {
