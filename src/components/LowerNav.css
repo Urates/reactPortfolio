@@ -8,6 +8,7 @@
     width:1300px;
     position: absolute;
     box-shadow: black 3px 3px 0;
+    z-index: 1;
   }
 .lowerNav ul
   {

@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import NavBar from './components/NavBar';
- import Profile from './components/Profile';
+ import Careers from './components/Careers';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         </div>
         
         <div className='Body'>
-          <Profile />
+          <Careers />
         </div>
 
            </div>

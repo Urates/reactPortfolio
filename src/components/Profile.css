@@ -3,7 +3,7 @@
     display: block;
     border-radius: 15px;
     position: absolute;
-    top: 300px;
+    top: 240px;
     left: 20px;
     right: 20px;
 }
@@ -12,39 +12,65 @@
     background-color: grey;
     display: block;
     position:absolute;
-    top: 550px;
+    top: 480px;
     left: 5px;
+    padding: 10px;
 
 }
 .ProfileContainerItems
 {
-    display: inline-grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 10px;
+    padding: 20px;
+    display: flex;
 }
 .ProfileContainerItems img
 {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 90px;
 }
 .grid1
 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 270px;
+    height: 320px;    
+    box-shadow: black 3px 3px;
+    background-color: rgba(121, 91, 34, 0.651);
 }
 .grid2
 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    width: 270px;
+    height: 320px;  
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: black 3px 3px;
+    background-color: rgba(0, 0, 0, 0.445);
 
 }
 .grid3
 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: black 3px 3px;
+    background-color: rgba(20, 87, 50, 0.596);
+    width: 270px;
+    height: 320px;  
+  
 
 }.grid4
 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: black 3px 3px;
+    background-color: rgba(37, 34, 53, 0.541);
+    width: 270px;  
+    height: 320px;  
+
 }

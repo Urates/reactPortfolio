@@ -38,7 +38,7 @@ const Profile = () => {
     
             <div className="grid4">
             <img src={Knowledge} alt="Knowledge Icon" />
-                    <p>In information systems studies knowledge shall mean an integrated and organised information acquired both from practical experience and non-practical studies. I want to say I have this viewpoint when I say knowledge is one of my fundamental professional qualities.</p>
+                <p>In information systems studies knowledge shall mean an integrated and organised information acquired both from practical experience and non-practical studies. I want to say I have this viewpoint when I say knowledge is one of my fundamental professional qualities.</p>
             </div>
     
         </div>
