@@ -1,9 +1,7 @@
 // App.js
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import NavBar from './components/NavBar';
- import Careers from './components/Careers';
+import AccountancySlide from './components/AccountancySlide';
 
 const App = () => {
   return (
@@ -13,7 +11,7 @@ const App = () => {
         </div>
         
         <div className='Body'>
-          <Careers />
+          <AccountancySlide />
         </div>
 
            </div>

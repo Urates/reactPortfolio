@@ -30,6 +30,7 @@
     padding: 20px;
     width: 94%;
     margin-left: 15px;
+    border-left: black solid 2px;
   }
   .HomeText p
   {

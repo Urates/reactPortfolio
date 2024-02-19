@@ -17,13 +17,15 @@
     grid-column-start: 2;
     grid-column-end: 3;
     top: 0;
+
 }
 
-ul{
+.navLinks ul{
     display: inline-block;
     list-style-type: none;
     position: fixed;
-    right: 5px;
+    left: 800px;
+ 
   }
   li
   {

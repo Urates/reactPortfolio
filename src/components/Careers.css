@@ -1,4 +1,92 @@
-.Careers-main
+.main-container
 {
-    display: block;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
+.accountancyStyle
+{
+
+    background-image: url(../images/AccountancySlide.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+}
+.accountancyStyle p
+{
+    border: rgb(48, 16, 16) 3px;
+    background-color: rgba(82, 173, 196, 0.466);
+    padding: 5px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+}
+.EntrepStyle
+{
+    background-image: url(../images/EntrepSlide.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+}
+.EntrepStyle p
+{
+    border: rgb(48, 16, 16) 3px;
+    background-color: rgb(82, 173, 196,0.466);
+    padding: 5px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+
+}
+.SoftwareDevStyle
+{
+    background-image: url(../images/SoftwareDevSlide.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+}
+.SoftwareDevStyle p
+{
+    border: rgb(48, 16, 16) 3px;
+    background-color: rgb(82, 173, 196,0.466);
+    padding: 10px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.hovered {
+    /* Define your hover effect styles here */
+    background-color: blue;
+    color: white;
+  }
