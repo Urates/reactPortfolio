@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import NavBar from './components/NavBar';
-import AccountancySlide from './components/AccountancySlide';
+import CareersSlide from './components/CareersSlide';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         </div>
         
         <div className='Body'>
-          <AccountancySlide />
+          <CareersSlide />
         </div>
 
            </div>

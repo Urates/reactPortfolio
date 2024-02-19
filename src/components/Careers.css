@@ -21,6 +21,31 @@
     padding: 10px;
     box-shadow: black 3px 3px 3px 3px;
 }
+.accountancyStyle:hover
+{
+    background-image: url(../images/AccountancyHover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+    border: rgb(46, 2, 2) solid 5px;
+}
+.accountancyStyle:hover p 
+{
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 5px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+}
 .accountancyStyle p
 {
     border: rgb(48, 16, 16) 3px;
@@ -46,6 +71,31 @@
     padding: 10px;
     box-shadow: black 3px 3px 3px 3px;
 }
+.EntrepStyle:hover
+{
+    background-image: url(../images/EntrepHover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+    border: rgb(46, 2, 2) solid 5px;
+}
+.EntrepStyle:hover p 
+{
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 5px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+}
 .EntrepStyle p
 {
     border: rgb(48, 16, 16) 3px;
@@ -57,7 +107,6 @@
     border-radius: 10px;
     font-size: smaller;
     text-align: center;
-
 }
 .SoftwareDevStyle
 {
@@ -72,6 +121,32 @@
     padding: 10px;
     box-shadow: black 3px 3px 3px 3px;
 }
+.SoftwareDevStyle:hover
+{
+    background-image: url(../images/softwareHover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 3px 3px;
+    border: rgb(46, 2, 2) solid 5px;
+}
+.SoftwareDevStyle:hover p 
+{
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 5px;
+    color: rgb(48, 16, 16);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: center;
+}
+
 .SoftwareDevStyle p
 {
     border: rgb(48, 16, 16) 3px;
@@ -84,9 +159,3 @@
     font-size: smaller;
     text-align: center;
 }
-
-.hovered {
-    /* Define your hover effect styles here */
-    background-color: blue;
-    color: white;
-  }
