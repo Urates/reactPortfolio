@@ -1,0 +1,31 @@
+.Mobile-container
+{
+    min-width: 320px;
+    max-width: 800px;
+}
+.Mobile-container ul
+{
+    list-style-type: none;
+    position: fixed;
+    height: 80px;
+    display: flex;
+}
+.Mobile-container li
+{
+    background-color: white;
+}
+.Mobile-container img
+{
+    width: 50px;
+    height: 50px;
+}
+.leftLogo img
+{
+    position: absolute;
+    left: 5px;
+}
+.rightMenu img
+{
+    position: absolute;
+    right: 5px;
+}
