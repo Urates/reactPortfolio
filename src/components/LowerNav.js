@@ -11,9 +11,9 @@ const LowerNav = () => {
         <div className="lowerNav">
                   <div><button>Blog</button></div>
                   <ul>
-                  <li><span><img src={VidIcon} /><p>Video Posts</p></span></li>
-                      <li><span><img src={ImgIcon} /><p>Image Posts</p></span></li>
-                      <li><span><img src={Reports} /><p>Reports</p></span></li>
+                  <li><span><img src={VidIcon} alt="Video Icon"/><p>Video Posts</p></span></li>
+                      <li><span><img src={ImgIcon} alt="Image Icon"/><p>Image Posts</p></span></li>
+                      <li><span><img src={Reports} alt="Reports Icon"/><p>Reports</p></span></li>
                       <li className="SearchInput"><span><img src={SearchIcon} /><input placeholder='search content in my Blog' id="BlogSearch"></input></span></li>
                 </ul>
         </div>

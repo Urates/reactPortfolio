@@ -2,7 +2,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import CareersSlide from './components/CareersSlide';
-
 const App = () => {
   return (
     <div className='LandingPage'>
