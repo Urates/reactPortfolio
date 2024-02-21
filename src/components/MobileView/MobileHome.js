@@ -13,6 +13,7 @@ import X from '../../images/10.png';
 import Gmail from '../../images/gmail.png';
 import Location from '../../images/Location.png';
 import Chat from '../../images/ChatBot.png';
+import NavLinks from './NavLinks';
 import './MobileHome.css';
 
 
@@ -23,7 +24,7 @@ const MobileHome = () => {
         <ul className='TopNavContent'>
           <li id='Left-Logo'><a href=''><img src={MobileLogo} alt='Logo'/></a></li>
           <li id='CenterName'><h2>UVIWE MAKIVA</h2></li>
-          <li id='Right-Menu'><a href=''><img src={Menu} alt='Menu icon'/></a></li>
+          <li id='Right-Menu'><a href={NavLinks}><img src={Menu} alt='Menu icon'/></a></li>
         </ul>
         <ul className='SecondNav'>
             <h2>BLOG</h2>

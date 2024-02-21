@@ -29,3 +29,23 @@
         grid-row-end: 4;
         position: fixed;
 }
+
+
+@media screen and (max-width:650px) {
+    #MobileLayout
+    {
+        margin: auto;
+        justify-content: center;
+    };
+    
+}
+
+@media screen and (min-width:650px) {
+    #DesktopLayout
+    {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    };
+}
+

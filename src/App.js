@@ -1,10 +1,33 @@
 // App.js
 import React from 'react';
-import MobileHome from './components/MobileView/MobileHome';
+import MainDesktop from './components/DesktopView/MainDesktop';
+import MainMobile from './components/MobileView/MobileHome';
+import { useState, useEffect } from 'react';
+import './App.css';
+
 const App = () => {
-  return (
-    <div className='Mobile-container'>
-      <MobileHome />
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+    return (
+    <div>
+        {windowWidth <= 650 ? (
+        <MainMobile />
+      ) : (
+        <MainDesktop />
+      )}
     </div>
   );
 }

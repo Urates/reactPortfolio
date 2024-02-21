@@ -1,0 +1,26 @@
+.NavLinks-container
+{
+    position: absolute;
+    display:block;
+    top: 50px;
+    left: 100px;
+    width: 5em;
+    height: 5em;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.NavLinks-container li
+{
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    display: block;
+
+}
+.NavLinks-container a
+{
+    color: black;
+    text-decoration: none;
+    
+}
+@media screen and (max-width:650px) {
+    
+}
