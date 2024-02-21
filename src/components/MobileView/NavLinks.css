@@ -2,7 +2,7 @@
 {
     position: absolute;
     display:block;
-    top: 50px;
+    top: -1em;
     left: 100px;
     width: 5em;
     height: 5em;
@@ -19,8 +19,5 @@
 {
     color: black;
     text-decoration: none;
-    
-}
-@media screen and (max-width:650px) {
     
 }

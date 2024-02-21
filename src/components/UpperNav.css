@@ -17,6 +17,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
     top: 0;
+    background-color: white;
+    z-index: 1;
+
 }
 
 .navLinks ul{
@@ -24,6 +27,8 @@
     list-style-type: none;
     position: fixed;
     left: 800px;
+    background-color: white;
+    z-index: 1;
  
   }
   li
@@ -33,7 +38,7 @@
     background-color: rgba(92, 87, 87, 0.603);
     border-radius: 10px;
     margin-left: 15px;
-
+    z-index: 1;
   }
   a
   {

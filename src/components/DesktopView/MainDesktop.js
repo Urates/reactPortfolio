@@ -5,18 +5,24 @@ import HomeBody from '../HomeBody';
 import Profile from '../Profile';
 import Education from '../Education';
 import Family from '../Family';
+import Footer from '../Footer';
 import './MainDesktop.css';
 
   
 const MainDesktop = () => {
   return (
 
-  <div>
+  <div className='LandingPage'>
+    <div className='NavBar' id='NavBar'>
       <NavBar />
-      <HomeBody />
-      <Profile />
-      <Education />
-      <Family />
+    </div>
+    <div className='Body' id='Body'>
+    <HomeBody />
+    </div>
+    <div className='Footer' id='Footer'>
+    </div>
+
+      
   </div>
     
   );

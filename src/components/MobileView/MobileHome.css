@@ -27,29 +27,29 @@
 .leftLogo img
 {
     position: absolute;
-    left: 5px;
+    left: 1em;
 }
 .rightMenu img
 {
     position: absolute;
-    right: 5px;
+    right: 1em;
 }
 #Left-Logo
 {
     position: absolute;
-    left: 15px;
+    left: -1em;
 }
 #CenterName
 {
     position: absolute;
-    left: 5em;
+    left: 3em;
     top: -8%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #Right-Menu
 {
     position: absolute;
-    right: 15px;
+    right: 0;
 }
 .SecondNav
 {
@@ -79,7 +79,7 @@
     list-style-type: none;
     display: flex;
     position: absolute;
-    left: 5px;
+    left: -2em;
     max-width: 20%;
 }
 .Posts-media li
@@ -105,35 +105,69 @@
 {
     position: absolute;
     top: 200px;
-    margin: 2em;
-    width:650px;
+    margin:-1em;
+    width:100%;
+    justify-content: center;
+}
+.MobileHome figure
+{
+    display: flex;
+    position: relative;
 }
 .MobileHome img
 {
-    min-width: 21em;
-    min-height: 30em;
-    max-width: 50em;
-    max-height: 65em;
+    width: 24em;
+    height: 30em;
     border-radius: 20px;
-    justify-content: center;
-    margin-right: 5%;
-    box-shadow: black 2px 2px 2px 2px;
-    display:block;
+ 
 }
-.MobileHome p
+.MobileHome figcaption
 {
-    position: absolute;
-    bottom:-1em;
-    left: 0;
-    right: 24em;
-    background-color: rgba(0, 0, 0, 0.815);
-    padding: 10px;
-    max-height: fit-content;
-    overflow: hidden;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.459);
+    bottom: 0;
     color: white;
-    font-size: small;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 20px;
+    font-size:small;
+    width: 24em;
+
+}
+.MobileText1
+{
+    margin: 1em;
     text-align: center;
-    border-radius:0 0 20px 20px;
+    background-color: white;
+    border-radius: 2em;
+    color: black;
+    position: absolute;
+}
+.MobileText2
+{
+    margin: 1em;
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+    position: absolute;
+}
+.MobileText3
+{
+    margin: 1em;
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+    position: absolute;
+}
+.MobileText4
+{
+    margin: 1em;
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+    position: absolute;
 }
 .MobileFooter
 {
@@ -141,7 +175,7 @@
     background-color: rgb(189, 189, 189);
     padding: 10px;
     position: absolute;
-    top: 105%;
+    top: 110%;
     display: flex;
 }
 .MobileFooter li
@@ -152,6 +186,6 @@
 }
 .MobileFooter img
 {
-    width: 50px;
-    height: 45px;
+    width: 2em;
+    height: 2em;
 }

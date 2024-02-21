@@ -24,7 +24,7 @@ const MobileHome = () => {
         <ul className='TopNavContent'>
           <li id='Left-Logo'><a href=''><img src={MobileLogo} alt='Logo'/></a></li>
           <li id='CenterName'><h2>UVIWE MAKIVA</h2></li>
-          <li id='Right-Menu'><a href={NavLinks}><img src={Menu} alt='Menu icon'/></a></li>
+          <li id='Right-Menu'><a href=''><img src={Menu} alt='Menu icon'/></a></li>
         </ul>
         <ul className='SecondNav'>
             <h2>BLOG</h2>
@@ -36,8 +36,17 @@ const MobileHome = () => {
             </ul>
         </ul>
         <div className='MobileHome'>
+          <figure>
             <img src={MobileHomeImg} alt='Mobile landing page image'></img>
-            <p><strong>Background Information</strong><br /><br />Every now and then I revisit Bentham's philosophy of happiness and in doing so I help myself remember the importance of having two scales through which I can maximise my internal happiness; <br /><br /><b>1.</b> scale of pleasure, where the focus is primarily to maximise pleasure; <br /><b>2.</b> scale of pain, where the focus is to feel the least of this personal feeling. <br /><br />'Happiness is a matter of experiencing pleasure and lack of pain', says Bentham Jeremy. This is my roadmap to happiness. You should be asking yourself why do I neccesarily have to tell you this?.<br /><br />The answer is simple, I have to be brutally honest about my non-negotiables so that you immediately know how to treat or work in any way with me.</p>
+            <figcaption>
+              <p className='MobileText1'><strong>Background Information</strong></p>
+              <p className='MobileText2'>Every now and then I revisit Bentham's philosophy of happiness and in doing so I help myself remember the importance of having two scales through which I can maximise my internal happiness;</p>
+              
+              <p className='MobileText3'><b>1.</b> scale of pleasure, where the focus is primarily to maximise pleasure;<b>2.</b> scale of pain, where the focus is to feel the least of this personal feeling.'Happiness is a matter of experiencing pleasure and lack of pain', says Bentham Jeremy.</p> 
+              
+              <p className='MobileText4'>This is my roadmap to happiness. You should be asking yourself why do I neccesarily have to tell you this?.The answer is simple, I have to be brutally honest about my non-negotiables so that you immediately know how to treat or work in any way with me.</p>
+            </figcaption>
+          </figure>
         </div>
         <ul className='MobileFooter'>
             <li><a><img src={Facebok} alt='Facebook' /></a></li>
