@@ -1,14 +1,18 @@
 .Mobile-container
 {
     min-width: 320px;
-    max-width: 800px;
+    max-width: 650px;
+    overflow: hidden;
 }
-.Mobile-container ul
+.TopNavContent
 {
     list-style-type: none;
     position: fixed;
-    height: 80px;
+    height: 90px;
     display: flex;
+    width: 90%;
+    z-index: 1;
+    background-color: white;
 }
 .Mobile-container li
 {
@@ -28,4 +32,124 @@
 {
     position: absolute;
     right: 5px;
+}
+#Left-Logo
+{
+    position: absolute;
+    left: 15px;
+}
+#CenterName
+{
+    position: absolute;
+    left: 5em;
+    top: -8%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Right-Menu
+{
+    position: absolute;
+    right: 15px;
+}
+.SecondNav
+{
+    width: 100%;
+    background-color:rgb(82, 173, 196) ;
+    height: 110px;
+    position: fixed;
+    top: 70px;
+    z-index: 1;
+}
+.SecondNav h2
+{
+    width: 100px;
+    text-align: center;
+    border: black solid 1px;
+    position: absolute;
+    top: -15%;
+    left: 10px;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    box-shadow: black 2px 2px 2px 2px;
+    font-size: small;
+}
+.Posts-media
+{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 5px;
+    max-width: 20%;
+}
+.Posts-media li
+{
+    display: flex;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.116);
+    border: black solid 1px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-right: 40%;    
+}
+.Posts-media li img
+{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.MobileHome
+{
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    margin: 10px;
+    width:650px;
+}
+.MobileHome img
+{
+    min-width: 21em;
+    min-height: 30em;
+    max-width: 50em;
+    max-height: 65em;
+    border-radius: 20px;
+    justify-content: center;
+    margin-right: 5%;
+    box-shadow: black 2px 2px 2px 2px;
+    display:block;
+}
+.MobileHome p
+{
+    position: absolute;
+    bottom:-1em;
+    left: 0;
+    right: 24em;
+    background-color: rgba(0, 0, 0, 0.815);
+    padding: 10px;
+    max-height: fit-content;
+    overflow: hidden;
+    color: white;
+    font-size: small;
+    text-align: center;
+    border-radius:0 0 20px 20px;
+}
+.MobileFooter
+{
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+    position: absolute;
+    top: 105%;
+    display: flex;
+}
+.MobileFooter li
+{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 2%;
+}
+.MobileFooter img
+{
+    width: 50px;
+    height: 45px;
 }
