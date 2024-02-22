@@ -9,7 +9,7 @@ import './LowerNav.css';
 const LowerNav = () => {
     return (
         <div className="lowerNav">
-                  <div><button>Blog</button></div>
+                  <div><a href=""><h2>Blog</h2></a></div>
                   <ul>
                   <li><span><img src={VidIcon} alt="Video Icon"/><p>Video Posts</p></span></li>
                       <li><span><img src={ImgIcon} alt="Image Icon"/><p>Image Posts</p></span></li>

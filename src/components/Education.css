@@ -1,9 +1,13 @@
+.main-education
+{
+    display: block;
+}
 .EducationContainer
 {
     display: flex;
-    position: absolute;
-    top: 280px;
+    position: relative;
     margin: 30px;
+    top: 13em;
 
 }
 .EducationSub-container
@@ -33,10 +37,6 @@
     border-left: black solid 2px;
     border-radius: 20px;
     padding: 10px;
-}
-.main-education
-{
-    display: block;
 }
 .education-more
 {

@@ -9,6 +9,7 @@
     position: absolute;
     box-shadow: black 3px 3px 0;
     z-index: 1;
+    margin-top: 0.8em;
   }
 .lowerNav ul
   {
@@ -47,6 +48,21 @@
     border: 0;
     margin-left: 10px;
   }
+  .lowerNav h2
+{
+    width: 100px;
+    text-align: center;
+    border: black solid 1px;
+    position: absolute;
+    top: -15%;
+    left: 10px;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    box-shadow: black 2px 2px 2px 2px;
+    font-size: small;
+    padding: 0.2em;
+}
   .SearchInput
   {
     position: absolute;

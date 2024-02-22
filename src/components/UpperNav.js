@@ -5,11 +5,7 @@ import Education from './Education';
 import CareersSlide from "./CareersSlide";
 import './UpperNav.css';
 
-const UpperNav = ({ onListItemClick }) => {
-    const handleListItemClick = (componentName) => {
-        onListItemClick(componentName);
-      };
-    
+const UpperNav = ({ onListItemClick }) => {    
     return (
 
           <div className="NavGrid">
@@ -19,9 +15,9 @@ const UpperNav = ({ onListItemClick }) => {
 
                 <div className='navLinks'>
                   <ul>
-                      <li id='Profile' onClick={() => handleListItemClick(Profile)}><a href="#profile" Link to ><strong>Profile</strong></a></li>
-                      <li id='Education' onClick={() => handleListItemClick(Education)}><a href="#education"><strong>Education</strong></a></li>
-                      <li id='Careers' onClick={() => handleListItemClick(CareersSlide)}><a href="#careers"><strong>Careers</strong></a></li>
+                      <li id='Profile'><a href="#profile"><strong>Profile</strong></a></li>
+                      <li id='Education'><a href="#education"><strong>Education</strong></a></li>
+                      <li id='Careers' ><a href="#careers"><strong>Careers</strong></a></li>
                       <li id='Family'><a href="#family"><strong>Family</strong></a></li>
                   </ul>
                 </div>
@@ -29,4 +25,4 @@ const UpperNav = ({ onListItemClick }) => {
     );
 }
   
-export default UpperNav;
+export default UpperNav; 

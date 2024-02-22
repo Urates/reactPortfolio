@@ -7,6 +7,10 @@ import Education from '../Education';
 import Family from '../Family';
 import Footer from '../Footer';
 import './MainDesktop.css';
+import CareersSlide from '../CareersSlide';
+import Entrepreneurship from '../Entrepreneurship';
+import CareersMain from '../CareersMain';
+import Accountancy from '../Accountancy';
 
   
 const MainDesktop = () => {
@@ -17,9 +21,10 @@ const MainDesktop = () => {
       <NavBar />
     </div>
     <div className='Body' id='Body'>
-    <HomeBody />
+      <Education />
     </div>
     <div className='Footer' id='Footer'>
+      <Footer />
     </div>
 
       

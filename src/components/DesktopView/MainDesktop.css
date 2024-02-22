@@ -1,42 +1,32 @@
 .LandingPage
     {
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 300px 900px 200px;
-        padding: 10px;
+        display: block;
+        padding: 1em;
     }
 .LandingPage .NavBar 
     {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
         position: fixed;
         top: 0;
+        left: 0;
+        height: 8em;
         background-color: white;
         z-index: 1;
+        width: 100%;
     }
 .LandingPage .Body
 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        position: absolute;
-        top: 0em;
-        background-color: red;
-        z-index: 0;
+        position: relative;
+        top:0 ;
+        height: 45em;
+        overflow: auto;
         justify-content: center;
+        z-index: 0;
 }
 
 .LandingPage .Footer
 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        position: fixed;
-        top: 110%;
-        background-color: grey;
+        position: absolute;
+        bottom: 0;
         z-index: 1;
+        top: 46em;
 }

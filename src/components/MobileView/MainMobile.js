@@ -1,15 +1,18 @@
 // App.js
 import React from 'react';
 import './MainMobile.css';
-import MobileHome from './MobileHome';
-import NavLinks from './NavLinks'
+import MobileNav from './MobileNav';
 
-const App = () => {
+const MainMobile = () => {
     return (
-    <div>
-      <MobileHome />
-      <MobileLinks/>
+    <div className='Mobile-Container'>
+      <div className='Mobile-nav'>
+        <MobileNav />
+      </div>
+      <div className='invisible-content'>
+
+      </div>
     </div>
   );
 }
-export default App;
+export default MainMobile;

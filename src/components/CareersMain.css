@@ -1,0 +1,10 @@
+.careers-container
+{
+    display: block;
+    position: absolute;
+    top: 14em;
+}
+.careers-container p
+{
+    text-align: center;
+}
