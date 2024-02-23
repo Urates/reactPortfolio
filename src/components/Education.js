@@ -12,7 +12,10 @@ import Fullstack from '../images/fullstack.jpg';
 const Education = () => {
   return (
 
-    <div className='main-education'>
+    <div>
+                <span><h1>Education</h1><hr></hr></span>
+
+                <div className='main-education'>
         <div className='EducationContainer'>
             <div className='EducationSub-container'>
                 <img src={WSU} alt='WSU Logo' />
@@ -46,6 +49,9 @@ const Education = () => {
 
     </div>
     </div>
+
+    </div>
+    
   );
 }
 export default Education;

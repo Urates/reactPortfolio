@@ -133,7 +133,8 @@
     bottom: 0;
     border-radius: 20px;
     font-size:small;
-    width: 24em;
+    width: 27.5em;
+    text-align: center;
 
 }
 .MobileText1
@@ -175,7 +176,7 @@
     background-color: rgb(189, 189, 189);
     padding: 10px;
     position: absolute;
-    top: 110%;
+    top: 101%;
     display: flex;
 }
 .MobileFooter li

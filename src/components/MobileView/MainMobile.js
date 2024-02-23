@@ -9,9 +9,6 @@ const MainMobile = () => {
       <div className='Mobile-nav'>
         <MobileNav />
       </div>
-      <div className='invisible-content'>
-
-      </div>
     </div>
   );
 }

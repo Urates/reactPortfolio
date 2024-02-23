@@ -17,7 +17,7 @@
 {
         position: relative;
         top:0 ;
-        height: 45em;
+        height: 400vh;
         overflow: auto;
         justify-content: center;
         z-index: 0;
@@ -26,7 +26,41 @@
 .LandingPage .Footer
 {
         position: absolute;
-        bottom: 0;
+        top:300vh;
         z-index: 1;
-        top: 46em;
+}
+.HomeBody
+{
+    position: relative;
+    top: 0vh;
+    display: flex;
+    flex-direction: column;
+}
+.Profile
+{
+    position: relative;
+    top: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+.Education
+{
+    position: relative;
+    top: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+.Career
+{
+    position: relative;
+    top: 180vh;
+    display: flex;
+    flex-direction: column;
+}
+.Family
+{
+    position: relative;
+    top: 200vh;
+    display: flex;
+    flex-direction: column;
 }

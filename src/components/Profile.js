@@ -12,6 +12,7 @@ const Profile = () => {
     
 <div>
 <div className="profileStyle">
+            <span><h1>Profile</h1><hr></hr></span>
             <p>As we grow it becomes hard to pinpoint or to understand our professional values until we encounter a professional environment and I am not immune to this challenge in self-discovery. I think these professional values grow with us as we thrive our way in life with the external environment that hugely shape who we are.</p> 
                 
             <p>A perfect example of this is when I noticed just how I am amazed by the whole idea of prosperity in living things. From plants, animals to other living things everything has a strong desire to witness the future either through offsprings or through any other possible way. This gave me strong instincts in making me want to be part of that global agenda for living things, i.e. outsurviving the stumbling blocks in our evolution through prosperity or fruition of progress.</p>

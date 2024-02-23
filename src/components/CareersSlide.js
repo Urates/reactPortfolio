@@ -6,39 +6,30 @@ import './Careers.css';
 
 
 const CareersSlide = () => {
-  const [activeComponent, setActiveComponent] = useState('Accountancy');
-  const [showButtons, setShowButtons] = useState(true);
-
-
-  const toggleComponent = (componentName) => {
-    setActiveComponent(componentName);
-    setShowButtons(false);
-  };
   return (
-    
-    <div className="main-container">
-            {activeComponent === 'Accountancy' && <Accountancy />}
-            {activeComponent === 'Entrepreneurship' && <Entrepreneurship />}
-            {activeComponent === 'SoftwareDev' && <SoftwareDev />}
-
-          <a href="" onClick={() => toggleComponent('Accountancy')}>
+    <div>
+      <span><h1>Careers</h1><hr></hr></span>
+      <div className="main-container">
+          <a href="">
           <div className="accountancyStyle">
             <p><strong>ACCOUNTANCY</strong></p>
           </div>
           </a>
 
-          <a href="" onClick={() => toggleComponent('Entrepreneurship')}>
+          <a href="">
           <div className="EntrepStyle" >
             <p><strong>ENTREPRENEURSHIP</strong></p>
           </div>
           </a>
           
-          <a href="" onClick={() => toggleComponent('SoftwareDev')}>
+          <a href="">
           <div className="SoftwareDevStyle">
             <p><strong>SOFTWARE DEVELOPMENT</strong></p>
           </div>
           </a>
     </div>
+    </div>
+    
       
     );
 }

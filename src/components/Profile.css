@@ -11,8 +11,8 @@
 {
     background-color: grey;
     display: block;
-    position:absolute;
-    top:26em;
+    position:relative;
+    top:54vh;
     left: 5px;
     padding: 10px;
 
@@ -73,4 +73,8 @@
     width: 270px;  
     height: 320px;  
 
+}
+h1
+{
+    text-align: center;
 }

@@ -8,12 +8,10 @@ import Reports from "../../images/reports.png";
 import SearchIcon from "../../images/searchB.png";
 
 const MobileNav = () => {
-    const NavArray =[{MobileHome},{MobileProfile},{MobileEducation},{MobileCareers},{MobileFamily}];
-    const NavList= document.getElementById("")
-return (
+   return (
     <div className="Mobile-container">
       <div className="FixedNav">
-
+        
       </div>
       <div className="MainMobileBody" id="MobileBody">
         

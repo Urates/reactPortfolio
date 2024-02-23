@@ -20,8 +20,23 @@ const MainDesktop = () => {
     <div className='NavBar' id='NavBar'>
       <NavBar />
     </div>
+
     <div className='Body' id='Body'>
+     <section className='HomeBody'>
+     <HomeBody />
+     </section>
+     <section className='Profile'>
+     <Profile />
+     </section>
+    <section className='Education'>
       <Education />
+    </section>
+    <section className='Career'>
+      <CareersSlide />
+    </section>
+    <section className='Family'>
+      <Family />
+    </section>
     </div>
     <div className='Footer' id='Footer'>
       <Footer />
