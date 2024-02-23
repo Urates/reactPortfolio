@@ -1,0 +1,60 @@
+.Profile-Container
+{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 20vh;
+    z-index: 0;
+}
+.Profile-Container span
+{
+    justify-content: center;
+    position: relative;
+    display: block;
+    width: 100vw;
+    color: black;
+}
+.Profile-Container h1
+{
+    font-size: large;
+    justify-content: center;
+    position: absolute;
+    left: 10vw;
+    z-index: 0;
+}
+.Profile-Container p{
+    width: 80vw;
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    font-size: small;
+    z-index: 0;
+    font-weight: bold;
+}
+.Profile-Container #ProfileText1
+{
+    background-color: rgba(82, 173, 196, 0.342);
+    border-radius: 5em;
+    padding: 2em;
+    left: -2em;
+    right: 2em;
+}
+.Profile-Container hr
+{
+    
+    border: rgb(0, 110, 255) solid 1px;
+    position: absolute;
+    top: 5vh;
+    left: 18vw;
+}
+.Profile-Container img
+{
+    width: 5em;
+    height: 5em;
+    position: relative;
+    top: 3em;
+}
+h3{
+    position: relative;
+    top: 5vh;
+}

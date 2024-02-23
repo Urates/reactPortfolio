@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import MainDesktop from './components/DesktopView/MainDesktop';
-import MainMobile from './components/MobileView/MobileHome';
+import MainMobile from './components/MobileView/MainMobile';
 import { useState, useEffect } from 'react';
 import './App.css';
 

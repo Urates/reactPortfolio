@@ -1,0 +1,42 @@
+.MobileEducation-container
+{
+    display: block;
+    position: relative;
+    top: 210vh;
+    z-index: 0;
+    width: 20em;
+    height: 15em;
+
+}
+.MobileEducation-container p
+{
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+.MobileEducation-container ul
+{
+    background-color: black;
+    margin-top: 1.5em;
+    padding: 1em;
+}
+.MobileEducation-container li{
+    background-color: rgb(105, 105, 105);
+    
+}
+.MobileEducation-container img
+{
+    width: 6em;
+    height: 6em;
+    margin: 0;
+}
+.MobileEducation-container h3
+{
+    text-align: center;
+}
+.MobileEducation-container hr
+{
+    text-align: center;
+    position: relative;
+    top: 1em;
+}

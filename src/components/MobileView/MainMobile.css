@@ -1,6 +1,6 @@
 .Mobile-Container
 {
-    max-width: 650px;
+    width: 650px;
     margin: 2em;
     height: 10em;
     display: grid;

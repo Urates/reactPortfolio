@@ -18,23 +18,23 @@ const MainDesktop = () => {
 
   <div className='LandingPage'>
     <div className='NavBar' id='NavBar'>
-      <NavBar />
+      <NavBar/>
     </div>
 
     <div className='Body' id='Body'>
      <section className='HomeBody'>
      <HomeBody />
      </section>
-     <section className='Profile'>
+     <section className='Profile' id='Profile'>
      <Profile />
      </section>
-    <section className='Education'>
+    <section className='Education' id='Education'>
       <Education />
     </section>
-    <section className='Career'>
+    <section className='Career' id='Careers'>
       <CareersSlide />
     </section>
-    <section className='Family'>
+    <section className='Family' id='Family'>
       <Family />
     </section>
     </div>

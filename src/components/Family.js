@@ -52,28 +52,6 @@ const Family = () => {
                 </ul>
            </div>
 
-           <div className='row'>
-                <ul>
-                <li>
-                        <video controls>
-                        <source src={CoolVideo} type="video/mp4" />
-                        </video>
-                </li>
-
-                <li>
-                        <video controls>
-                        <source src={CoolVideo} type="video/mp4" />
-                        </video>
-                </li>       
-
-                    <li>
-                        <video controls>
-                        <source src={CoolVideo} type="video/mp4" />
-                        </video>
-                    </li>
-                </ul>
-           </div>
-
 
         </div>    
     );

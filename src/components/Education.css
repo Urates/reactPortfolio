@@ -38,27 +38,32 @@
     border-radius: 20px;
     padding: 10px;
 }
-.education-more
+.education-more a
 {
-    width: 150px;
-    height: fit-content;
+    
     border-radius:20px;
-    margin-left: 45%;
+    position: relative;
+    margin: auto;
     background-color: rgb(82, 173, 196);
     display: block;
     border: black solid 2px;
-
+    overflow: hidden;
 }
 .education-more h3
 {
-    color: rgb(0, 0, 0);
-    border: white;
+    background-color: rgb(82, 173, 196);
     text-align: center;
     text-shadow:
     -1px -1px 0 #ffffff,  
     1px -1px 0 #ffffff,
     -1px  1px 0 #ffffff,
     1px  1px 0 #ffffff;
+    width: 10em;
+    height: 2em;
+    justify-content: center;
+    border-radius: 5em;
+    margin: auto;
+    
 }
 
 .default-invissible

@@ -5,7 +5,7 @@ import Education from './Education';
 import CareersSlide from "./CareersSlide";
 import './UpperNav.css';
 
-const UpperNav = ({ onListItemClick }) => {    
+const UpperNav = () => {    
     return (
 
           <div className="NavGrid">
