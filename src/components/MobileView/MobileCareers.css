@@ -2,13 +2,13 @@
 {
     display: block;
     position: absolute;
-    top: 160em;
+    top: 148em;
     z-index: -1;
 }
 .MobileCareers-container img
 {
-    width: 20em;
-    height: 20em;
+    width: 18em;
+    height: 18em;
     box-shadow: black 0.2em 0.2em 0.2em 0.2em;
     margin: 0.5em;
 }

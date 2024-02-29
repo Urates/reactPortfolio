@@ -13,7 +13,6 @@ const MobileProfile = () => {
 
         <p id='ProfileText1'>Not so long ago, I became part of an emerging non profit company whose main objective is to regulate the small business environment. In this company there are four main pillars or values that guide the operations of the company. These values echo a very good abstraction of my professional profile; it is them that make the working environment of this company, Small Business Practitioners of South Africa, conducive even for a professional like me. The following elaborates more on these values:</p>
         
-        <span><img src={Prosperity} alt="Prosperity Icon" /><h3>PROSPERITY</h3></span>
         
         <p>"Anyone with the grit mindset that can last for a long time is simply regarded as prosperous for our purposes. This is because grit mindset guarantees the success we want to see in small business owners". This is how prosperity is defined in this company and that perfectly matches to what I mean when I say I value prosperity.</p>
 
