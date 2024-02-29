@@ -24,7 +24,7 @@
 .UpperNav #LeftLogo
 {
     position: absolute;
-    left: 15vw;
+    left: 4vw;
     top: 3em;
     width: 4em;
     height: 4em;
@@ -32,7 +32,7 @@
 .UpperNav #MyName
 {
     position: absolute;
-    left: 38vw;
+    left: 25vw;
     top: 7vh;
     color: black;
     font-size: x-large;
@@ -40,28 +40,12 @@
 .UpperNav #RightMenu
 {
     position: absolute;
-    left: 90vw;
+    left: 80vw;
     top: 3em;
     width: 4em;
     height: 4em;
 } 
-.Nav-container .BlogNav h2
-{
-    width: 100px;
-    text-align: center;
-    border: black solid 1px;
-    position: relative;
-    top: 7em;
-    left: 3em;
-    border-radius: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
-    box-shadow: black 2px 2px 2px 2px;
-    font-size: small;
-    padding: 0.2em;
-    color: black;
-    z-index:1;
-}
+
 .Nav-container .BlogNav
 {
     background-color: rgb(82, 173, 196);

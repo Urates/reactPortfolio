@@ -1,0 +1,36 @@
+.mLandingPage-container
+{
+    margin: auto;
+    position: relative;
+    top: 31vh;
+}
+.mLandingPage-container img
+{
+    width: 100vw;
+    height: 75vh;
+}
+.mLandingPage-text
+{
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.mLandingPage-text p
+{
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.mLandingPage-text h3
+{
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
