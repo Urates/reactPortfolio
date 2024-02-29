@@ -45,12 +45,7 @@
     text-decoration: none;
     color: black;
   }
-  .active 
-  {
+  .active {
     border-color: linear-gradient(to top, #fdfdfd, #1ba4da);
     background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 15px;
-    z-index: 1;
   }
