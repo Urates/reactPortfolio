@@ -23,7 +23,7 @@ const App = () => {
 
     return (
     <div>
-        {windowWidth <= 650 ? (
+        {windowWidth <= 700 ? (
         <MainMobile />
       ) : (
         <MainDesktop />

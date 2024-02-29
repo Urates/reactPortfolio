@@ -46,21 +46,21 @@
 .Education
 {
     position: relative;
-    top: 150vh;
+    top: 160vh;
     display: flex;
     flex-direction: column;
 }
 .Career
 {
     position: relative;
-    top: 180vh;
+    top: 200vh;
     display: flex;
     flex-direction: column;
 }
 .Family
 {
     position: relative;
-    top: 200vh;
+    top: 220vh;
     display: flex;
     flex-direction: column;
 }

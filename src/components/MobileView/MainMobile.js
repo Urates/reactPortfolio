@@ -5,6 +5,7 @@ import MobileNav from './MobileNav';
 import MobileFooter from './MobileFooter';
 import MobileProfile from './MobileProfile';
 import MobileEducation from './MobileEducation';
+import MobileCareers from './MobileCareers';
 
 const MainMobile = () => {
     return (
@@ -19,6 +20,11 @@ const MainMobile = () => {
       <div>
         <MobileEducation />
       </div>
+      
+      <div>
+        <MobileCareers />
+      </div>
+      
       <div>
       <MobileFooter />
       </div>
