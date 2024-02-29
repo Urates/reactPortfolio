@@ -4,8 +4,10 @@
     flex-direction: row;
     justify-content: center;
     position: fixed;
-    width: 650px;
-    z-index: 1;
+    width: 28em;
+    height: 10em;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
 }
 .Nav-container .UpperNav
 {
@@ -16,7 +18,8 @@
     right: 0;
     background-color: white;
     display: flex;
-    z-index: 1;
+    z-index: 2;
+    
 }
 .UpperNav #LeftLogo
 {
