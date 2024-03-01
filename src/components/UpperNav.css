@@ -26,7 +26,7 @@
     display: inline-block;
     list-style-type: none;
     position: fixed;
-    left: 70vw;
+    right: 5vw;
     background-color: white;
     z-index: 1;
  
@@ -35,6 +35,7 @@
   {
     display: inline-block;
     padding: 15px;
+
     border-radius: 10px;
     margin-left: 15px;
     z-index: 1;

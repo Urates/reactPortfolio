@@ -20,10 +20,13 @@ const MobileNav = () => {
         <a href=""><img src={Menu} alt="Menu Icon" id="RightMenu"/></a>  
       </div>
       <div className="BlogNav">
-        <a href=""><img src={ImageIcon} alt="Image Icon"/></a>
-        <a href=""><img src={VideoIcon} alt="Image Icon"/></a>
-        <a href=""><img src={Reports} alt="Image Icon"/></a>
-        <a href=""><img src={SearchIcon} alt="Image Icon"/></a>
+        <a id="BlogBtn">Blog</a>
+        <ul>
+          <li><a href=""><img src={ImageIcon} alt="Image Icon"/></a></li>
+          <li><a href=""><img src={VideoIcon} alt="Image Icon"/></a></li>
+          <li><a href=""><img src={Reports} alt="Image Icon"/></a></li>
+          <li><a href=""><img src={SearchIcon} alt="Image Icon"/></a></li>
+        </ul>
       </div>
     </div>
     );
