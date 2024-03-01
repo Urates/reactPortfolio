@@ -19,6 +19,7 @@
     background-color: white;
     display: flex;
     z-index: 2;
+    width: 100vw;
 }
 .UpperNav h1
 {
@@ -48,6 +49,8 @@
     top: 3em;
     width: 4em;
     height: 4em;
+    background-color: white;
+    z-index: 2;
 } 
 
 .Nav-container .BlogNav
@@ -60,6 +63,7 @@
     justify-content: left;
     overflow: hidden;
     z-index: 1;
+    width: 100vw;
 
 }
 .BlogNav img
@@ -77,4 +81,6 @@
     margin: 0.5em;
     position: relative;
     left: 1.5em;
+    width: 16vw;
+    height: 9vh;
 }

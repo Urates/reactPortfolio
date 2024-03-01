@@ -1,6 +1,8 @@
 .main-education
 {
     display: block;
+    position: relative;
+    top: 0vh;
 }
 .EducationContainer
 {

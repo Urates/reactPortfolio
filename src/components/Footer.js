@@ -23,8 +23,7 @@ const Footer = () => {
                         <li><a href='mailto:umakiva@gmail.com?subject=Web%20Based%20Query&body=Write%20your%20email%20body%20here'><img src={Gmail} alt='Gmail' /></a></li>
                         <li><a href='https://www.google.com/maps/place/Bizana,+4800/@-30.8566379,29.8408711,15z/data=!4m6!3m5!1s0x1e5f5ee8f49450a9:0x72ad018693910a50!8m2!3d-30.8581891!4d29.8534132!16s%2Fm%2F0glrw35?entry=ttu' target="_blank"><img src={Location} alt='Location' /></a></li>
                         <li><img src={Chat} /></li>
-                    </ul>
-                   
+                    </ul>                   
   </div>
     
   );

@@ -3,14 +3,14 @@
     justify-content: center;
     display: block;
     padding: 10px;
-    position: absolute;
-    top: 13em;
+    position: relative;
+    top: 30vh;
 }
 
 .family-container .row
 {
     display: block;
-    width: 1200px;
+    width: 100vw;
 }
 .row h2
 {

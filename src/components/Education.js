@@ -1,7 +1,4 @@
-// App.js
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import './Education.css';
 import WSU from '../images/wsu.jpg';
 import Wits from '../images/wits.jpg';
