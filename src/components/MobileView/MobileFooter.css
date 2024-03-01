@@ -2,9 +2,30 @@
 {
     width: 100vw;
     position: absolute;
-    top: 740vh;
+    top: 760vh;
     z-index: 2;
     height: 19vh;
     background-color: rgba(70, 70, 70, 0.842);
-    
+}
+.MobileFooterContainer ul
+{
+    padding: 0;
+
+}
+.MobileFooterContainer img
+{
+    width: 1.5em;
+    height: 1.5em;
+}
+#Copyright
+{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+}
+#Copyright p
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 1.5em;
 }

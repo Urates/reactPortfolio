@@ -3,12 +3,12 @@
     margin: auto;
     display: block;
     position: relative;
-    top: 415vh;
+    top: 435vh;
 }
 .MobileBlog-Container img
 {
     width: 100vw;
-    height: 54vh;
+    height: 45vh;
     align-items: center;
     float: center;
 }
