@@ -77,9 +77,9 @@
 {
     position: absolute;
     top: -0.1vh;
-    left: 1vw;
+    left: -1vw;
     border: 3vw;
-    width: 15vw;
+    width: 30vw;
     height: 3vh;
     box-shadow: black 0.1em 0.1em 0.1em 0.1em;
     z-index: 2;
@@ -87,7 +87,8 @@
     font-size: smaller;
     padding-left: 2em;
     background-color: white;
-    border-radius: 1em;
+    border-radius: 0.4em;
+    text-align: center;
 }
 li
 {
