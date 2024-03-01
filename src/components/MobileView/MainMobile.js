@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import MobileNav from './MobileNav';
 import MobileFooter from './MobileFooter';
@@ -7,6 +6,7 @@ import MobileEducation from './MobileEducation';
 import MobileCareers from './MobileCareers';
 import MobileLandingPage from './MobileLandingPage';
 import MobileFamily from './MobileFamily';
+import MobileBlog from './MobileBlog';
 
 const MainMobile = () => {
     return (
@@ -34,6 +34,9 @@ const MainMobile = () => {
       </div>
       <div>
       <MobileFamily />
+      </div>
+      <div>
+      <MobileBlog />
       </div>
     </div>
   );

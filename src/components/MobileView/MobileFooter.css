@@ -1,9 +1,10 @@
 .MobileFooterContainer
 {
     width: 100vw;
-    position: relative;
-    top: 300em;
-    height: 15vh;
-    background-color: rgba(148, 148, 148, 0.842);
-   
+    position: absolute;
+    top: 740vh;
+    z-index: 2;
+    height: 19vh;
+    background-color: rgba(70, 70, 70, 0.842);
+    
 }

@@ -1,0 +1,60 @@
+.MobileBlog-Container
+{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 415vh;
+}
+.MobileBlog-Container img
+{
+    width: 100vw;
+    height: 54vh;
+    align-items: center;
+    float: center;
+}
+.MobileBlog-Container h3
+{
+    background-color: rgb(53, 50, 50);
+    text-align: center;
+    height: 2em;
+    color: rgb(255, 255, 255);
+    padding-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.MobileBlog-Container p
+{
+    text-align: left;
+    margin-top: -0.2em;
+    margin-left: 0.5em;
+}
+.MobileBlog-Container h4
+{
+    box-shadow: rgb(54, 136, 136) 0.1em 0.4em 1em 0.1em;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding: 0.5em;
+}
+.DropDownHandler
+{
+    display: block;
+}
+.DropDownHandler span
+{
+    display: block;
+    background-color: rgb(141, 141, 141);
+    margin: 1em;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-left:1em;
+    border-radius: 2em;
+    box-shadow: black 0.1em 0.1em;
+
+}
+.DropDownHandler img
+{
+    width: 5vw;
+    height: 3vh;
+    margin-left: 80vw;
+    position: relative;
+    top: -2vh;
+}
