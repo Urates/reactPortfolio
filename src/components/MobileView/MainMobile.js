@@ -6,6 +6,7 @@ import MobileProfile from './MobileProfile';
 import MobileEducation from './MobileEducation';
 import MobileCareers from './MobileCareers';
 import MobileLandingPage from './MobileLandingPage';
+import MobileFamily from './MobileFamily';
 
 const MainMobile = () => {
     return (
@@ -30,6 +31,9 @@ const MainMobile = () => {
 
       <div>
       <MobileFooter />
+      </div>
+      <div>
+      <MobileFamily />
       </div>
     </div>
   );

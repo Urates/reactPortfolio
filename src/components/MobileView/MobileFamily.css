@@ -1,0 +1,31 @@
+.MobileFamily-Container{
+    margin: auto;
+    position: relative;
+    top: 420vh;
+    justify-content: center;
+}
+.MobileFamily-Container h3{
+    text-align: center;
+}
+.MobileFamily-Container hr
+{
+    margin-top: 2.5em;
+}
+.MobileFamily-Container ul
+{
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+.MobileFamily-Container li
+{
+    margin: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+.MobileFamily-Container video
+{
+    width: 3em;
+    height: 3em;
+}

@@ -19,7 +19,11 @@
     background-color: white;
     display: flex;
     z-index: 2;
-    
+}
+.UpperNav h1
+{
+    position: absolute;
+    top: 1vh;
 }
 .UpperNav #LeftLogo
 {
