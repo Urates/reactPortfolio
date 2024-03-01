@@ -11,7 +11,7 @@
 }
 .Nav-container .UpperNav
 {
-    height: 1vh;
+    height: 1.5vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -70,13 +70,13 @@
 {
     width: 3em;
     height: 3em;
-    padding: 0.5em;
+    padding: 0.3em;
 }
 
 #BlogBtn
 {
     position: absolute;
-    top: -0.1vh;
+    top: 0vh;
     left: -1vw;
     border: 3vw;
     width: 30vw;
@@ -92,7 +92,6 @@
 }
 li
 {
-    background-color:rgb(255, 255, 255);
     padding: 0.1em;
     border-radius: 2em;
     margin-top: 1.1em;

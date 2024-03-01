@@ -17,8 +17,8 @@ const MobileBlog = () => {
         <p>This photo then proves in one way that networking is not only fun but also powerful. This is, of course, only evident if you are to observe the relationship I have with the candidates in this picture before the event and after. I have observed everything for you here and I attest that networking is indeed the second if not the only key to success.  </p>
 
         <div className='DropDownHandler'>
-            <span><a>Video Content</a><img src={DropDownIcon} alt='dropdown icon'/></span>
             <span><a>Image Content</a><img src={DropDownIcon} alt='dropdown icon'/></span>
+            <span><a>Video Content</a><img src={DropDownIcon} alt='dropdown icon'/></span>
             <span><a>Reports Content</a><img src={DropDownIcon} alt='dropdown icon'/></span>
         </div>
     </div>

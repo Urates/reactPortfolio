@@ -10,7 +10,14 @@
 .MobileFooterContainer ul
 {
     padding: 0;
-
+}
+.MobileFooterContainer li
+{
+    margin: auto;
+    padding: 1em;
+    position: relative;
+    left: 7vw;
+    background-color: rgba(255, 255, 255, 0);
 }
 .MobileFooterContainer img
 {
@@ -27,5 +34,4 @@
 {
     text-align: center;
     color: rgb(0, 0, 0);
-    margin-left: 1.5em;
 }

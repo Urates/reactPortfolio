@@ -20,12 +20,11 @@
 }
 .MobileFamily-Container li
 {
-    margin: 1em;
     width: fit-content;
     height: fit-content;
 }
 .MobileFamily-Container video
 {
-    width: 3em;
-    height: 3em;
+    width: 5em;
+    height: 5em;
 }
