@@ -11,7 +11,7 @@ const Profile = () => {
         
     
 <div>
-<div className="profileStyle">
+<div className="profileStyle" id="profile">
             <span><h1>Profile</h1><hr></hr></span>
             <p>As we grow it becomes hard to pinpoint or to understand our professional values until we encounter a professional environment and I am not immune to this challenge in self-discovery. I think these professional values grow with us as we thrive our way in life with the external environment that hugely shape who we are.</p> 
                 

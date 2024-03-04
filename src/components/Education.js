@@ -9,7 +9,7 @@ import Fullstack from '../images/fullstack.jpg';
 const Education = () => {
   return (
 
-    <div>
+    <div id='education'>
                 <span><h1>Education</h1><hr></hr></span>
 
                 <div className='main-education'>

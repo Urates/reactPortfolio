@@ -4,7 +4,7 @@ import './Family.css';
 
 const Family = () => {
     return (
-        <div className="family-container">
+        <div className="family-container" id='family'>
            <div className='row'>
                 <h2>Family Testimonials</h2>
                 <hr></hr>

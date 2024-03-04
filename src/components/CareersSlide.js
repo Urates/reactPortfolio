@@ -7,7 +7,7 @@ import './Careers.css';
 
 const CareersSlide = () => {
   return (
-    <div>
+    <div id="careers">
       <span><h1>Careers</h1><hr></hr></span>
       <div className="main-container">
           <a href="">
