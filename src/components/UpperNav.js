@@ -37,7 +37,7 @@ const UpperNav = () => {
 
                 <div className='navLinks'>
                   <ul>
-                      <li><a  className={activeLink === 'profile' ? 'active' : ''}><strong>Profile</strong></a></li>
+                      <li><a  href="#profile" className={activeLink === 'profile' ? 'active' : ''}><strong>Profile</strong></a></li>
                       <li><a href="#education" className={activeLink === 'education' ? 'active' : ''}><strong>Education</strong></a></li>
                       <li><a href="#careers" className={activeLink === 'careers' ? 'active' : ''}><strong>Careers</strong></a></li>
                       <li><a href="#family" className={activeLink === 'family' ? 'active' : ''}><strong>Family</strong></a></li>
