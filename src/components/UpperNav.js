@@ -15,7 +15,7 @@ const UpperNav = () => {
 
                 <div className='navLinks'>
                   <ul>
-                      <li id='Profile'><a href="#profile"><strong>Profile</strong></a></li>
+                      <li><a href="#profile" className="active"><strong>Profile</strong></a></li>
                       <li id='Education'><a href="#education"><strong>Education</strong></a></li>
                       <li id='Careers' ><a href="#careers"><strong>Careers</strong></a></li>
                       <li id='Family'><a href="#family"><strong>Family</strong></a></li>

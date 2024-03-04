@@ -45,7 +45,10 @@
     text-decoration: none;
     color: black;
   }
-  .active {
-    border-color: linear-gradient(to top, #fdfdfd, #1ba4da);
-    background-color: white;
+  a:active {
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    background-color: rgba(128, 128, 128, 0.192);
+    border-radius: 1em;
+    border-bottom: red solid 2px;
   }

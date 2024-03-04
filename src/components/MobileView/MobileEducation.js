@@ -8,7 +8,7 @@ import SoftwareDev from "../../images/fullstack.jpg";
 
 const MobileEducation = () => {
    return (
-    <div className="MobileEducation-container">
+    <div className="MobileEducation-container" id="MobileEducation">
         <span><h3>Education</h3><hr></hr></span>
         <ul>
             <li><img  src={WSU} alt="WSU Logo"/></li>
