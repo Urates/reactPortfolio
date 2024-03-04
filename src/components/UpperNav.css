@@ -5,6 +5,8 @@
     padding: 10px;
     background-color: white;
     z-index: 1;
+    position: sticky;
+    top: 10vh;
 }
 .logo
 {
@@ -45,7 +47,7 @@
     text-decoration: none;
     color: black;
   }
-  a:active {
+  a:hover {
     color: rgb(0, 0, 0);
     padding: 0.5em;
     background-color: rgba(128, 128, 128, 0.192);
