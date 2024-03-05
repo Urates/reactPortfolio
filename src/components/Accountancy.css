@@ -4,9 +4,8 @@
     grid-template-columns: 500px 600px;
     grid-template-rows: 300px 400px;
     padding: 10px;
-    position:absolute;
-    top: 250px;
-    width: 1200px;
+    position:relative;
+    width: 100vw;
     justify-content: center;
 }
 .accountancy-container .item1
