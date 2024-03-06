@@ -2,6 +2,8 @@
     {
         display: block;
         padding: 1em;
+        left: 0;
+        right: 0;
     }
 .LandingPage .NavBar 
     {
@@ -11,7 +13,7 @@
         height: 8em;
         background-color: white;
         z-index: 1;
-        width: 100%;
+        width: 100vw;
     }
 .LandingPage .Body
 {
@@ -19,7 +21,6 @@
         top:0 ;
         height: 400vh;
         overflow: auto;
-        justify-content: center;
         z-index: 0;
 }
 

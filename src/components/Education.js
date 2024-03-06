@@ -10,26 +10,22 @@ const Education = () => {
   return (
 
     <div id='education'>
-                <span><h1>Education</h1><hr></hr></span>
 
-                <div className='main-education'>
-        <div className='EducationContainer'>
-            <div className='EducationSub-container'>
-                <img src={WSU} alt='WSU Logo' />
-            </div>
-
+        <div className='main-education'>
+        <span><h1>Education</h1><hr></hr></span>
+            <div className='EducationContainer'>
+                <div className='EducationSub-container'>
+                     <img src={WSU} alt='WSU Logo' />
+                 </div>
             <div className='EducationSub-container'>
                 <img src={Wits} alt='Wits Logo' />
             </div>
-
             <div className='EducationSub-container'>
                 <img src={Fullstack} alt='Wits Logo' />
             </div>
-
-
             <div className='EducationSub-container'>
                 <img src={ShortCourses} alt='Wits Logo' />
-            </div>
+        </div>
         
             <div className='Education-infoBox' id='Education-infoBox'>
                 <p>My academic journey has been quite long because while I am learning I had always been questioning new methods of learning both for me and for the upcoming generation. This information herein is therefore not exhaustive of my academic achievements, it just a record of my formal education.</p>

@@ -10,8 +10,8 @@ const Profile = () => {
     return (
         
     
-<div>
-<div className="profileStyle" id="profile">
+<div className="mainProfileContainer" id="profile">
+        <div >
             <span><h1>Profile</h1><hr></hr></span>
             <p>As we grow it becomes hard to pinpoint or to understand our professional values until we encounter a professional environment and I am not immune to this challenge in self-discovery. I think these professional values grow with us as we thrive our way in life with the external environment that hugely shape who we are.</p> 
                 
@@ -20,7 +20,7 @@ const Profile = () => {
             <p> Not so long ago, I became part of an emerging non profit company whose main objective is to regulate the small business environment. In this company there are four main pillars or values that guide the operations of the company. These values echo a very good abstraction of my professional profile; it is them that make the working environment of this company, Small Business Practitioners of South Africa, conducive even for a professional like me. The following elaborates more on these values:</p>
       </div>
     
-      <div className="mainProfileContainer">
+      
         <div className="ProfileContainerItems">
             <div className="grid1">
             <img src={Prosperity} alt="Prosperity Icon" />
@@ -41,8 +41,6 @@ const Profile = () => {
             <img src={Knowledge} alt="Knowledge Icon" />
                 <p>In information systems studies knowledge shall mean an integrated and organised information acquired both from practical experience and non-practical studies. I want to say I have this viewpoint when I say knowledge is one of my fundamental professional qualities.</p>
             </div>
-    
-        </div>
     
       </div>
 

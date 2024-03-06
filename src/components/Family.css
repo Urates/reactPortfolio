@@ -1,10 +1,11 @@
 .family-container
 {
     justify-content: center;
+    align-items: center;
     display: block;
-    padding: 10px;
     position: relative;
     top: 30vh;
+    margin-top: 7em;
 }
 
 .family-container .row
@@ -21,24 +22,24 @@
 {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .row li
 {
     border-radius: 20px;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    width:33vw;
+    height: 50vh;
     box-shadow: rgb(53, 104, 117) 5px 5px;
 }
 
 video
 {
-    width: 100%;
+    width: 30vw;
     height: 100%;
     position: relative;
 }
 hr
 {
-    width: 30%;
+    width: 30vw;
 }

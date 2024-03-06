@@ -2,8 +2,7 @@
 {
     display: block;
     border-radius: 15px;
-    position: absolute;
-    top: 15vh;
+    position: relative;
     left: 20px;
     right: 20px;
 }
@@ -12,7 +11,7 @@
     background-color: grey;
     display: block;
     position:relative;
-    top:54vh;
+    top: 66vh;
     left: 5px;
     padding: 10px;
 
